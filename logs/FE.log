@@ -1,0 +1,32 @@
+2025-10-12 21:36:32,917 - INFO - === Feature Engineering Pipeline Started ===
+2025-10-12 21:36:32,923 - INFO - Loaded data: shape (7183, 12)
+2025-10-12 21:36:32,924 - INFO - Handled missing values using forward/backward fill
+2025-10-12 21:36:32,930 - INFO - Created temporal features with _FE suffix
+2025-10-12 21:36:32,932 - INFO - Created lag and rolling features with _FE suffix
+2025-10-12 21:36:32,932 - INFO - Created interaction features with _FE suffix
+2025-10-12 21:36:32,933 - INFO - Created extreme/binary features with _FE suffix
+2025-10-12 21:36:33,000 - INFO - Feature engineered data saved: C:\Users\sharg\Desktop\uyga vazifa\unsupervised learning\3-oy\final\Climate YEOSU\data\Engineered\yeosu_weather_FE.csv
+2025-10-12 21:36:33,000 - INFO - Final shape: (7183, 31)
+2025-10-12 21:36:33,008 - INFO - === Feature Engineering Pipeline Finished ===
+2025-10-12 22:01:25,485 - INFO - === Feature Engineering Pipeline Started ===
+2025-10-12 22:01:25,491 - INFO - Loaded data: shape (7183, 12)
+2025-10-12 22:01:25,491 - INFO - Handled missing values using forward/backward fill
+2025-10-12 22:01:25,496 - INFO - Created temporal features with _FE suffix
+2025-10-12 22:01:25,498 - INFO - Created lag and rolling features with _FE suffix
+2025-10-12 22:01:25,499 - INFO - Filled remaining missing values in lag/rolling features
+2025-10-12 22:01:25,499 - INFO - Created interaction features with _FE suffix
+2025-10-12 22:01:25,500 - INFO - Created extreme/binary features with _FE suffix
+2025-10-12 22:01:25,566 - INFO - Feature engineered data saved: C:\Users\sharg\Desktop\uyga vazifa\unsupervised learning\3-oy\final\Climate YEOSU\data\Engineered\yeosu_weather_FE.csv
+2025-10-12 22:01:25,566 - INFO - Final shape: (7183, 31)
+2025-10-12 22:01:25,566 - INFO - === Feature Engineering Pipeline Finished ===
+2025-10-12 22:01:46,131 - INFO - === Feature Engineering Pipeline Started ===
+2025-10-12 22:01:46,136 - INFO - Loaded data: shape (7183, 12)
+2025-10-12 22:01:46,137 - INFO - Handled missing values using forward/backward fill
+2025-10-12 22:01:46,141 - INFO - Created temporal features with _FE suffix
+2025-10-12 22:01:46,143 - INFO - Created lag and rolling features with _FE suffix
+2025-10-12 22:01:46,144 - INFO - Filled remaining missing values in lag/rolling features
+2025-10-12 22:01:46,144 - INFO - Created interaction features with _FE suffix
+2025-10-12 22:01:46,145 - INFO - Created extreme/binary features with _FE suffix
+2025-10-12 22:01:46,210 - INFO - Feature engineered data saved: C:\Users\sharg\Desktop\uyga vazifa\unsupervised learning\3-oy\final\Climate YEOSU\data\Engineered\yeosu_weather_FE.csv
+2025-10-12 22:01:46,210 - INFO - Final shape: (7183, 31)
+2025-10-12 22:01:46,210 - INFO - === Feature Engineering Pipeline Finished ===

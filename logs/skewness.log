@@ -1,0 +1,18 @@
+2025-10-12 22:29:21,259 - INFO - === Skewness Handling Pipeline Started ===
+2025-10-12 22:29:21,277 - INFO - Loaded data: shape (7183, 31)
+2025-10-12 22:29:21,280 - INFO - Encoded categorical column: Date
+2025-10-12 22:29:21,280 - INFO - Encoded categorical column: Season_FE
+2025-10-12 22:29:21,284 - INFO - Identified highly skewed features: ['Precipitation (mm)', 'Visibility (km)', 'Max Sustained Wind (km/h)', 'AvgTemp_7d_std_FE', 'Precip_7d_sum_FE', 'Temp_Wind_FE', 'HotDay_FE', 'ColdDay_FE', 'WindyDay_FE', 'RainyDay_FE']
+2025-10-12 22:29:21,285 - INFO - Applied log1p transform with shift=1.0 to column: Precipitation (mm)
+2025-10-12 22:29:21,285 - INFO - Applied log1p transform to column: Visibility (km)
+2025-10-12 22:29:21,285 - INFO - Applied log1p transform to column: Max Sustained Wind (km/h)
+2025-10-12 22:29:21,286 - INFO - Applied log1p transform with shift=1.0 to column: AvgTemp_7d_std_FE
+2025-10-12 22:29:21,286 - INFO - Applied log1p transform with shift=1.0 to column: Precip_7d_sum_FE
+2025-10-12 22:29:21,286 - INFO - Applied log1p transform with shift=239.0 to column: Temp_Wind_FE
+2025-10-12 22:29:21,286 - INFO - Applied log1p transform with shift=1 to column: HotDay_FE
+2025-10-12 22:29:21,287 - INFO - Applied log1p transform with shift=1 to column: ColdDay_FE
+2025-10-12 22:29:21,287 - INFO - Applied log1p transform with shift=1 to column: WindyDay_FE
+2025-10-12 22:29:21,287 - INFO - Applied log1p transform with shift=1 to column: RainyDay_FE
+2025-10-12 22:29:21,370 - INFO - Skewness-handled data saved: C:\Users\sharg\Desktop\uyga vazifa\unsupervised learning\3-oy\final\Climate YEOSU\data\skewness\yeosu_weather_FE_skew.csv
+2025-10-12 22:29:21,370 - INFO - Final shape: (7183, 31)
+2025-10-12 22:29:21,370 - INFO - === Skewness Handling Pipeline Finished ===

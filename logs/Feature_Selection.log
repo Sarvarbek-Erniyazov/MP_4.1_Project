@@ -1,0 +1,6 @@
+2025-10-12 23:24:50,376 - INFO - === Feature Selection Pipeline Started ===
+2025-10-12 23:24:50,406 - INFO - Loaded data: shape (7183, 31)
+2025-10-12 23:25:42,364 - INFO - Selected top 27 features: ['Day', 'Maximum Temperature (°C)', 'Minimum Temperature (°C)', 'Atmospheric Pressure (hPa)', 'Relative Humidity (%)', 'Precipitation (mm)', 'Visibility (km)', 'Wind Speed (km/h)', 'Max Sustained Wind (km/h)', 'Month', 'Year', 'Date', 'Day_of_Week_FE', 'Day_of_Year_FE', 'Season_FE', 'Day_sin_FE', 'Day_cos_FE', 'AvgTemp_lag1_FE', 'AvgTemp_lag7_FE', 'Humidity_lag1_FE', 'Pressure_diff_FE', 'AvgTemp_7d_mean_FE', 'AvgTemp_7d_std_FE', 'Precip_7d_sum_FE', 'Temp_Humidity_FE', 'Temp_Wind_FE', 'HotDay_FE']
+2025-10-12 23:25:42,436 - INFO - Selected features saved to C:\Users\sharg\Desktop\uyga vazifa\unsupervised learning\3-oy\final\Climate YEOSU\data\Feature_Selection\yeosu_weather_selected.csv
+2025-10-12 23:25:42,447 - INFO - Final dataset shape: (7183, 28)
+2025-10-12 23:25:42,447 - INFO - === Feature Selection Pipeline Finished ===
